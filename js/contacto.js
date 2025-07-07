@@ -35,6 +35,7 @@ class ContactManager {
 
             if (response.ok) {
                 this.form.reset(); // Solo reseteamos el formulario
+                this.showSuccess('¡Mensaje enviado correctamente!');
             } else {
                 throw new Error('Error en el servidor');
             }
@@ -91,6 +92,33 @@ class ContactManager {
             deleteBtn.addEventListener('click', () => alerta.remove());
         }
         
+        setTimeout(() => {
+            if (alerta.parentElement) {
+                alerta.remove();
+            }
+        }, 5000);
+    }
+
+    showSuccess(mensaje) {
+        const alerta = document.createElement('div');
+        alerta.className = 'notification is-success';
+        alerta.style.marginBottom = '1rem';
+        alerta.style.position = 'fixed';
+        alerta.style.top = '20px';
+        alerta.style.right = '20px';
+        alerta.style.zIndex = '9999';
+        alerta.style.minWidth = '200px';
+        alerta.innerHTML = `
+            <button class="delete" aria-label="cerrar"></button>
+            <strong>${mensaje}</strong>
+        `;
+        document.body.appendChild(alerta);
+
+        const deleteBtn = alerta.querySelector('.delete');
+        if (deleteBtn) {
+            deleteBtn.addEventListener('click', () => alerta.remove());
+        }
+
         setTimeout(() => {
             if (alerta.parentElement) {
                 alerta.remove();
