@@ -3,9 +3,6 @@ class AdminMessageManager {
         this.messages = [];
         this.emailFilter = '';
         this.nameFilter = '';
-
-        this.selectedMessageId = null;
-        this.isDeleteModalOpen = false;
         this.init();
     }
 
@@ -223,19 +220,13 @@ class AdminMessageManager {
     }
 }
 
-// Funciones globales necesarias
-function filterMessages(type) {
-    if (adminP) {
-        adminP.filterMessages(type);
-    }
-}
-
 function refreshMessages() {
     if (adminP) {
         adminP.loadMessages();
     }
 }
 
+let adminP;
 document.addEventListener('DOMContentLoaded', () => {
     adminP = new AdminMessageManager();
 });
