@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Legends Arena</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="admin-theme">
+
+    <!-- Main Content -->
+    <section class="section admin-section">
+        <div class="container">
+            <!-- Header -->
+            <div class="level">
+                <div class="level-left">
+                    <div class="level-item">
+                        <div>
+                            <h1 class="title admin-main-title">Gestiona los mensaje de contacto</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="level-right">
+                    <div class="level-item">
+                        <button class="button is-primary" onclick="refreshMessages()">
+                            <span class="icon">🔄</span>
+                            <span>Actualizar</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filters -->
+            <div class="box admin-filters">
+                <div class="field is-grouped">
+                    <div class="control is-expanded">
+                        <label class="label">Filtrar por correo</label>
+                        <input class="input" type="email" id="emailFilter" placeholder="Ingresa el correo a filtrar...">
+                    </div>
+                    <div class="control is-expanded">
+                        <label class="label">Filtrar por nombre</label>
+                        <input class="input" type="text" id="nameFilter" placeholder="Ingresa el nombre a filtrar...">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Messages Container -->
+            <div id="messagesContainer" class="admin-messages">
+                <div class="has-text-centered admin-no-messages">
+                    <div class="admin-empty-state">
+                        <span class="icon is-large">📭</span>
+                        <p class="title is-4">No hay mensajes</p>
+                        <p class="subtitle">Los mensajes aparecerán aquí cuando los usuarios envíen consultas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delete Confirmation Modal -->
+    <div id="deleteModal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card admin-modal">
+            <header class="modal-card-head">
+                <p class="modal-card-title">Confirmar Eliminación</p>
+                <button class="delete" aria-label="cerrar"></button>
+            </header>
+            <section class="modal-card-body">
+                <p>¿Estás seguro de que quieres eliminar este mensaje? Esta acción no se puede deshacer.</p>
+            </section>
+            <footer class="modal-card-foot">
+                <button class="button is-danger is-small" id="confirmDeleteButton">
+                    🗑 Eliminar
+                </button>
+                <button class="button">Cancelar</button>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/admin-mensajes.js"></script>
+</body>
+</html>

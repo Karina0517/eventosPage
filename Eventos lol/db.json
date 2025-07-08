@@ -1,0 +1,148 @@
+{
+  "messages": [
+    {
+      "id": "3",
+      "nombre": "Diego Ramírez",
+      "email": "diego.ramirez@hotmail.com",
+      "mensaje": "Excelente página web. Me interesa mucho el torneo cross-game. ¿Cuándo abren las inscripciones?",
+      "fecha": "2024-12-01T16:45:00.000Z",
+      "leido": true
+    },
+    {
+      "id": "4",
+      "nombre": "Ana Sofía",
+      "email": "ana.sofia@outlook.com",
+      "mensaje": "¡Hola! Soy streamer y me gustaría saber si hay oportunidades de colaboración para cubrir los eventos.",
+      "fecha": "2024-12-01T18:20:00.000Z",
+      "leido": true
+    },
+    {
+      "id": "5",
+      "nombre": "Carlos Mendoza",
+      "email": "carlos.mendoza@yahoo.com",
+      "mensaje": "Tengo problemas para registrarme en el torneo. ¿Podrían ayudarme con el proceso?",
+      "fecha": "2024-12-01T20:10:00.000Z",
+      "leido": true
+    },
+    {
+      "nombre": "Santiago López",
+      "email": "santi.lopez@gmail.com",
+      "mensaje": "Hola buenas tardes, quisiera saber más información sobre el evento del 20 de Julio, me gustaría participar pero apenas estoy comenzando en el mundo gamer.",
+      "fecha": "2025-07-06T22:22:33.455Z",
+      "leido": true,
+      "id": "01Huxp-"
+    },
+    {
+      "nombre": "santiAgo",
+      "email": "santi.lopez@gmail.com",
+      "mensaje": "Hola buenas tardes",
+      "fecha": "2025-07-07T21:16:52.376Z",
+      "leido": false,
+      "id": "WqMcKGV"
+    },
+    {
+      "nombre": "santiAgo",
+      "email": "santi.lopez@gmail.com",
+      "mensaje": "Hola buenas tardes",
+      "fecha": "2025-07-07T23:02:27.460Z",
+      "leido": false,
+      "id": "IGooq2Y"
+    },
+    {
+      "nombre": "santiAgo",
+      "email": "santi.lopez@gmail.com",
+      "mensaje": "Hola buenas tardes",
+      "fecha": "2025-07-07T23:03:03.719Z",
+      "leido": false,
+      "id": "rN3CIZm"
+    },
+    {
+      "nombre": "santiAgo",
+      "email": "santi.lopez@gmail.com",
+      "mensaje": "Hola buenas tardes",
+      "fecha": "2025-07-07T23:03:13.356Z",
+      "leido": false,
+      "id": "exfrjmH"
+    },
+    {
+      "nombre": "santiAgo",
+      "email": "santi.lopez@gmail.com",
+      "mensaje": "Hola buenas tardes",
+      "fecha": "2025-07-07T23:03:26.300Z",
+      "leido": false,
+      "id": "PGYm_Tv"
+    },
+    {
+      "nombre": "santiAgo",
+      "email": "santi.lopez@gmail.com",
+      "mensaje": "Hola buenas tardes",
+      "fecha": "2025-07-07T23:07:53.389Z",
+      "leido": false,
+      "id": "3SLot1-"
+    },
+    {
+      "nombre": "santiAgo",
+      "email": "santi.lopez@gmail.com",
+      "mensaje": "Hola buenas tardes",
+      "fecha": "2025-07-07T23:08:08.528Z",
+      "leido": false,
+      "id": "9w0P0QZ"
+    },
+    {
+      "nombre": "santiAgo",
+      "email": "santi.lopez@gmail.com",
+      "mensaje": "Hola buenas tardes",
+      "fecha": "2025-07-07T23:10:08.481Z",
+      "leido": false,
+      "id": "pzZ88Nc"
+    },
+    {
+      "nombre": "santiAgo",
+      "email": "santi.lopez@gmail.com",
+      "mensaje": "Hola buenas tardes",
+      "fecha": "2025-07-07T23:10:30.373Z",
+      "leido": false,
+      "id": "USnuSoq"
+    },
+    {
+      "nombre": "santiAgo",
+      "email": "santi.lopez@gmail.com",
+      "mensaje": "Hola buenas tardes",
+      "fecha": "2025-07-07T23:13:15.456Z",
+      "leido": false,
+      "id": "cTHjIC-"
+    },
+    {
+      "nombre": "santiAgo",
+      "email": "santi.lopez@gmail.com",
+      "mensaje": "Hola buenas tardes",
+      "fecha": "2025-07-07T23:17:18.042Z",
+      "leido": false,
+      "id": "yyhaKiw"
+    },
+    {
+      "nombre": "santiAgo",
+      "email": "santi.lopez@gmail.com",
+      "mensaje": "Hola buenas tardes",
+      "fecha": "2025-07-08T00:09:18.636Z",
+      "leido": false,
+      "id": "qKX_PTy"
+    },
+    {
+      "nombre": "santiAgo",
+      "email": "santi.lopez@gmail.com",
+      "mensaje": "Hola buenas tardes",
+      "fecha": "2025-07-08T00:24:04.151Z",
+      "leido": false,
+      "id": "6G78puf"
+    },
+    {
+      "nombre": "holis",
+      "email": "olis@gmail.com",
+      "mensaje": "wjdjdejdjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
+      "fecha": "2025-07-08T00:24:41.475Z",
+      "leido": false,
+      "id": "cNnRVYt"
+    }
+  ]
+}
